@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = axios.create({
   //baseURL: "http://localhost:3000/tasks",
-  baseURL : "https://task-management-frontend-9klr.onrender.com"
+  baseURL : "https://task-management-frontend-9klr.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
