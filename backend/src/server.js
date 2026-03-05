@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3001;
     //origin: "http://localhost:5173",
   //})
 //);
-
+app.use(cors());
 app.use(express.json());
 
 app.use("/tasks", taskRoutes);
