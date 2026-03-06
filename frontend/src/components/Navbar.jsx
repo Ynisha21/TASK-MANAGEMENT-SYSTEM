@@ -7,9 +7,9 @@ const Navbar = ({ resetFilters }) => {
 
   const handleAllTasksClick = () => {
     if (resetFilters) {
-      resetFilters();   // 🔹 reset filters first
+      resetFilters();   // reset filters first
     }
-    navigate("/");      // 🔹 then navigate to home
+    navigate("/");      // then navigate to home
   };
 
   return (
