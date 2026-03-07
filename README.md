@@ -97,6 +97,7 @@ The dashboard also shows task statistics:
 ---
 
 ## Project Structure
+```bash
 TASK-MANAGEMENT-SYSTEM
 │
 ├── backend
@@ -158,7 +159,7 @@ TASK-MANAGEMENT-SYSTEM
 ├── eslint.config.js
 ├── package.json
 └── README.md
-
+```
 
 ---
 
